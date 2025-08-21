@@ -6,4 +6,4 @@ __pycache__/
 .venv/
 *.pyc
 agent/tools/__pycache__/
-agent/__pycache__
+agent/__pycache__/
