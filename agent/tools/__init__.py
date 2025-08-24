@@ -1,5 +1,9 @@
-from .calculator import evaluate
-from .weather import temp
-from .knowledge_base import kb_lookup
+# Import all tools and their functions for the orchestrator
+from . import calculator
+from . import weather  
+from . import knowledge_base
+from . import currency
 
-__all__ = ['evaluate', 'temp', 'kb_lookup']
+__all__ = [
+    'calculator', 'weather', 'knowledge_base', 'currency'
+]

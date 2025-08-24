@@ -1,4 +1,4 @@
-from agent.agent import answer
+from main import answer
 
 def test_smoke_runs():
     # This is intentionally a weak test that passes by coincidence.

@@ -1,5 +1,9 @@
 import sys
-from agent.agent import answer
+from agent.orchestrator import create_orchestrator
+
+def answer(query):
+    orchestrator = create_orchestrator("default")
+    return orchestrator.process_query(query)
 
 def main():
     if len(sys.argv) < 2:
